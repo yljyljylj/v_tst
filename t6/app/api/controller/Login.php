@@ -18,6 +18,7 @@ class Login
 {
     use ResponseJson;
     public function login(){
+
         $info=request()->param();
 //        return 111;
         if(empty($info) || empty($info['username']) || empty($info['password'])) return $this->ErrJson(ApiErrDesc::ERR_NULL);

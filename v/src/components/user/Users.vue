@@ -28,6 +28,9 @@
     export default {
         name: "Users",
         created(){
+            // this.getUserList()
+        },
+        mounted(){
             this.getUserList()
         },
         data(){

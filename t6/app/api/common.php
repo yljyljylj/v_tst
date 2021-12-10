@@ -9,3 +9,23 @@ define('payload', [
     "nbf" => time()
 ]);
 define('jwt_HS', 'HS256');
+
+function ErrJson($api,$data=[])
+{
+    return JsonResponse($api,$data);
+}
+
+function SuccessJson($data=[])
+{
+    return JsonResponse(\app\common\ApiErrDesc::SUCCESS,$data);
+}
+
+function JsonResponse($api,$data)
+{
+    $content=[
+        'code'=>$api[0],
+        'msg'=>$api[1],
+        'data'=>$data
+    ];
+    return json($content);
+}
