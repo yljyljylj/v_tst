@@ -9,7 +9,17 @@
 namespace app\api\controller;
 
 
-class User
-{
+use app\BaseController;
+use  \app\api\model\User as UserModel;
+use app\common\ResponseJson;
 
+class User extends BaseController
+{
+    use ResponseJson;
+    public function index(){
+        $db=new UserModel();
+        $res=$db->select()->toArray();
+//        halt($res);
+        return $this->SuccessJson($res);
+    }
 }

@@ -47,7 +47,7 @@
                 <!--右侧主体区-->
                 <el-main>
                     <router-view></router-view>
-                    Main
+
 
                 </el-main>
             </el-container>

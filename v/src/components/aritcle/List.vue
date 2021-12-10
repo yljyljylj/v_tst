@@ -3,9 +3,8 @@
         <!--导航区-->
         <el-breadcrumb separator-class="el-icon-arrow-right">
             <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
-            <el-breadcrumb-item>活动管理</el-breadcrumb-item>
-            <el-breadcrumb-item>活动列表</el-breadcrumb-item>
-            <el-breadcrumb-item>活动详情</el-breadcrumb-item>
+            <el-breadcrumb-item>文章管理</el-breadcrumb-item>
+            <el-breadcrumb-item>文章列表</el-breadcrumb-item>
         </el-breadcrumb>
         <!--卡片视图区-->
         <el-card class="box-card">
@@ -17,7 +16,7 @@
                     </el-input>
                 </el-col>
                 <el-col :span="4">
-                    <el-button type="primary">添加用户</el-button>
+                    <el-button type="primary">新增</el-button>
                 </el-col>
             </el-row>
         </el-card>
@@ -26,7 +25,7 @@
 
 <script>
     export default {
-        name: "Users",
+        name: "List",
         created(){
             this.getUserList()
         },
@@ -41,7 +40,7 @@
         },
         methods:{
             async getUserList(){
-              const {data:res}=await this.$axios.get('http://vtst.com/api/user/index',{params:this.queryInfo})
+              const {data:res}=await this.$axios.get('http://vtst.com/api/aritcle/index',{params:this.queryInfo})
             }
         },
     }

@@ -5,6 +5,7 @@ import Home from '../components/Home'
 import Welcome from '../components/Welcome'
 import Users from '../components/user/Users'
 import System from '../components/system/System'
+import List from '../components/aritcle/List'
 
 
 Vue.use(VueRouter)
@@ -30,6 +31,10 @@ const routes = [
             {
                 path:'/users',
                 component:Users
+            },
+            {
+                path:'/list',
+                component:List
             },
             {
                 path:'/system',

@@ -31,6 +31,21 @@ class Home
                     ]
                 ]
             ],
+            [
+                'id'=>104,
+                'authName'=>'文章管理',
+                'path'=>null,
+                'icon'=>'el-icon-setting',
+                'children'=>[
+                    [
+                        'id'=>1041,
+                        'authName'=>'文章列表',
+                        'path'=>'list',
+                        'icon'=>'el-icon-eleme',
+                        'children'=>[]
+                    ]
+                ]
+            ],
           [
               'id'=>101,
               'authName'=>'商品管理',
