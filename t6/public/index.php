@@ -13,6 +13,10 @@
 namespace think;
 
 require __DIR__ . '/../vendor/autoload.php';
+header('Access-Control-Allow-Origin:*');
+header('Access-Control-Allow-Methods:POST,GET,OPTIONS,DELETE');
+header('Access-Control-Allow-Credentials: true');
+header('Access-Control-Allow-Headers: Authorization,Content-Type,Content-Length,Accept-Encoding,X-Requested-with,X-Token, Origin');
 
 // 执行HTTP应用并响应
 $http = (new App())->http;

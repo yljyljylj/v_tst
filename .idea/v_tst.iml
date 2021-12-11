@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/t6/app" isTestSource="false" packagePrefix="app\" />
       <sourceFolder url="file://$MODULE_DIR$/t6/extend" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/t6/vendor/firebase/php-jwt" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/league/flysystem-cached-adapter" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/psr/cache" />
@@ -17,8 +18,10 @@
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/topthink/framework" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/topthink/think-helper" />
+      <excludeFolder url="file://$MODULE_DIR$/t6/vendor/topthink/think-multi-app" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/topthink/think-orm" />
       <excludeFolder url="file://$MODULE_DIR$/t6/vendor/topthink/think-trace" />
+      <excludeFolder url="file://$MODULE_DIR$/t6/vendor/wenhainan/thinkphp6-auth" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

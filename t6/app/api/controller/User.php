@@ -9,11 +9,10 @@
 namespace app\api\controller;
 
 
-use app\BaseController;
 use  \app\api\model\User as UserModel;
 use app\common\ResponseJson;
 
-class User extends BaseController
+class User
 {
     use ResponseJson;
     public function index(){

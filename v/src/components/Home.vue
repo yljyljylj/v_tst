@@ -60,9 +60,10 @@
     export default {
         name: "Home",
         created(){
-            this.getHomeList()
+            // this.getHomeList()
         },
         mounted(){
+            this.getHomeList()
             this.defaultActive=this.$route.path
         },
         data() {

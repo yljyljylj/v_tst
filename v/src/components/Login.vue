@@ -37,6 +37,7 @@
         },
         methods: {
             onSubmit() {
+
                 this.$refs.form.validate(async valid=>{
                     if(!valid) return
                         const {data:res}=await this.$axios.post('http://vtst.com/api/login/login',this.loginForm)
