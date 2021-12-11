@@ -15,7 +15,7 @@
                     <el-input v-model="editform.content" autocomplete="off"></el-input>
                 </el-form-item>
             </el-form>
-            <div slot="footer" class="dialog-footer">
+            <div slot="footer" class="dialog-footer" style="text-align: center;">
                 <el-button @click="reset">取 消</el-button>
                 <el-button type="primary" @click="editAritcle">确 定</el-button>
             </div>
@@ -25,7 +25,7 @@
 <script>
     export default {
         name: "Edit",
-        props:['editforms','formLabelWidth'],
+        props:['editforms','formLabelWidth','edits'],
         data(){
             return {
                 editdialog:this.editdialogFormVisible,
@@ -34,9 +34,12 @@
             }
         },
         methods:{
-            editAritcle(){},
+            editAritcle(){
+                if(this.editform.title==='') return alert('标题不能为空')
+                this.edits(this.editform,true)
+            },
             reset(){
-
+                this.edits(this.editform,false)
             }
         }
     }

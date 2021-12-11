@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0a9457-60c6-458b-89e0-511e808d346e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/v_tst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/v_tst.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/api/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/api/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/api/controller/Aritcle.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/api/controller/Aritcle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/api/controller/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/api/controller/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/api/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/api/controller/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/api/controller/System.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/api/controller/System.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t6/app/api/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/api/controller/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/api/middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/api/middleware.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/common/ApiErrDesc.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/common/ApiErrDesc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/app/middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/app/middleware.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t6/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/t6/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/0562918a3566a48ec5f4d7789bee1a91.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/0562918a3566a48ec5f4d7789bee1a91.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/0bd8082962993e60b6cd8864560a45b8.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/0bd8082962993e60b6cd8864560a45b8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/29037cda387f1ef32c5d4cdbe4554fd2.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/29037cda387f1ef32c5d4cdbe4554fd2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/5012312fca569c3553831981a26e84f5.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/5012312fca569c3553831981a26e84f5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/5136030ee778d8f80dd58416320792ba.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/5136030ee778d8f80dd58416320792ba.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/60c4424f6fdf9a10e22fbdc55507af5b.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/60c4424f6fdf9a10e22fbdc55507af5b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/704d1e38df56009a325e23e0e9b971e5.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/704d1e38df56009a325e23e0e9b971e5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/7d8e761fb1ed40212147306554ee0bdb.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/7d8e761fb1ed40212147306554ee0bdb.json" afterDir="false" />
@@ -26,28 +15,42 @@
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/85815a2b48503700c5420b12d3c57ac2.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/85815a2b48503700c5420b12d3c57ac2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/8a45b2d5ca0b8ae9cd23a0e0d4c70051.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/8a45b2d5ca0b8ae9cd23a0e0d4c70051.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/bdef109a895e6cc7addb3cefc7d80f84.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/bdef109a895e6cc7addb3cefc7d80f84.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/d7edc4e5a0d8462ee3d4f50691917caa.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/d7edc4e5a0d8462ee3d4f50691917caa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/f45eddcf0f221b3be7cff5e8e7277993.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/f45eddcf0f221b3be7cff5e8e7277993.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/f590b4db879464e4a9f25a75d39834de.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/babel-loader/f590b4db879464e4a9f25a75d39834de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/048e73df9cf5a9dd64b0b1a4030265a4.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/048e73df9cf5a9dd64b0b1a4030265a4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/080c96bc51f2e2572d652395fefedd31.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/080c96bc51f2e2572d652395fefedd31.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/08ee4cb9258f6517c45c74ab86d652f7.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/08ee4cb9258f6517c45c74ab86d652f7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/0ab4404e7b38440649162f8ac8cf8068.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/0ab4404e7b38440649162f8ac8cf8068.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/16a6164e3e6c7b09d649cb9f4099596d.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/16a6164e3e6c7b09d649cb9f4099596d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/19a0ce28b3d4c4c508eff7816c6acec8.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/19a0ce28b3d4c4c508eff7816c6acec8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/221032c3e6b98375faf9f7f3937a5d43.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/221032c3e6b98375faf9f7f3937a5d43.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/2322525711a8928899bdeedf226cc60c.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/2322525711a8928899bdeedf226cc60c.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/2622b40ee143a91af6361db23dd6bfad.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/2622b40ee143a91af6361db23dd6bfad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/3495cb1e2f7f198a17b8dd3556684fae.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/3495cb1e2f7f198a17b8dd3556684fae.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/448da7f483707a3e052813017155d526.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/448da7f483707a3e052813017155d526.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/462b98b8bf63edc4333419e410a399d0.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/462b98b8bf63edc4333419e410a399d0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/469d2613eef42bdd757bfa407779255e.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/469d2613eef42bdd757bfa407779255e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/5192809096070446f883f37b568052e6.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/5192809096070446f883f37b568052e6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/55977ec3c790265e646bd89b5993f4d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/55977ec3c790265e646bd89b5993f4d5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/6e915b0722229054f3c301a7952da6e0.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/6e915b0722229054f3c301a7952da6e0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/74252ae3295eb4337c2244657e9f0fef.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/74252ae3295eb4337c2244657e9f0fef.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/74ce85b0e94d424395c755904a16aad1.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/74ce85b0e94d424395c755904a16aad1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/7a5d7c1b5d31d97ed303eb35a27e21b7.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/7a5d7c1b5d31d97ed303eb35a27e21b7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/7f6c7aaa6c69a478bbc9e6770443cff0.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/7f6c7aaa6c69a478bbc9e6770443cff0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/804ffeadadfdd6c2567b151430ddf141.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/804ffeadadfdd6c2567b151430ddf141.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/80522a69a1e1839f1be2fe4af14cfe4b.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/80522a69a1e1839f1be2fe4af14cfe4b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/8659fc8e9c9112c897e5b9848e68a946.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/8659fc8e9c9112c897e5b9848e68a946.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/8b5bd46a582fa6b8a07e93a3e6cab369.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/8b5bd46a582fa6b8a07e93a3e6cab369.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/905e77cea16abb148e65a6e526541718.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/905e77cea16abb148e65a6e526541718.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/9a0297b604ba672ce3afcfdda1d3d3a4.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/9a0297b604ba672ce3afcfdda1d3d3a4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/9ba6a144028de134366e61c216e041aa.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/9ba6a144028de134366e61c216e041aa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/a54871124032be08b5f6e55b63a9d878.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/a54871124032be08b5f6e55b63a9d878.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/ad7fe94b3010d2cd5e11ca96b2fddc35.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/ad7fe94b3010d2cd5e11ca96b2fddc35.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c2ad710467cd7ee8f6caa7ad73007c6e.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c2ad710467cd7ee8f6caa7ad73007c6e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c54e2c5e82c54940107211f02705fe13.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c54e2c5e82c54940107211f02705fe13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c6957f97e3a57c5eb65f47aef7563502.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c6957f97e3a57c5eb65f47aef7563502.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c8279f9bf8c40033f92b99a840a717b5.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/c8279f9bf8c40033f92b99a840a717b5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/ca800f12ff65f5d6fc1b050c9735006f.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/ca800f12ff65f5d6fc1b050c9735006f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/d112aaab560e90c4830142c653769d29.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/d112aaab560e90c4830142c653769d29.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/d254c16ec2006d12c0b047feba8d0d5d.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/d254c16ec2006d12c0b047feba8d0d5d.json" afterDir="false" />
@@ -57,8 +60,7 @@
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/f11452b255ed0ef64e8a2f09e3aacb9d.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/f11452b255ed0ef64e8a2f09e3aacb9d.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/f965c112ec33c0214f6c22c5a43a210f.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/f965c112ec33c0214f6c22c5a43a210f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/feb80f2f3f8b30ff9d2a7aff44dc2a97.json" beforeDir="false" afterPath="$PROJECT_DIR$/v/node_modules/.cache/vue-loader/feb80f2f3f8b30ff9d2a7aff44dc2a97.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v/src/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/src/components/aritcle/Edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v/src/components/aritcle/Edit.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/src/components/aritcle/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v/src/components/aritcle/List.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/src/components/user/Users.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v/src/components/user/Users.vue" afterDir="false" />
     </list>
@@ -78,36 +80,37 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1074" />
-          <entry key="vue" value="685" />
+          <entry key="php" value="1347" />
+          <entry key="vue" value="1512" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1074" />
-          <entry key="Vue.js" value="685" />
+          <entry key="PHP" value="1347" />
+          <entry key="Vue.js" value="1512" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="js" value="2" />
-          <entry key="php" value="36" />
-          <entry key="vue" value="12" />
+          <entry key="php" value="37" />
+          <entry key="vue" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="36" />
+          <entry key="PHP" value="37" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Vue.js" value="12" />
+          <entry key="Vue.js" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -120,49 +123,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t6/app/api/middleware/Check.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-              <folding>
-                <element signature="e#66#92#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t6/app/api/model/Aritcle.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Aritcle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="619">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="16" />
               <folding>
                 <element signature="e#130#153#0#PHP" expanded="true" />
               </folding>
@@ -170,51 +134,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/v/src/components/aritcle/List.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="-1656">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="38" />
               <folding>
-                <element signature="n#style#0;n#el-table#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-pagination#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-dialog#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#5302#5407#0" />
+                <element signature="e#4491#4655#0" />
+                <element signature="e#4684#4822#0" />
+                <element signature="e#4853#5135#0" />
+                <element signature="e#6921#7244#0" />
+                <element signature="e#7349#7966#0" />
+                <element signature="e#7990#8286#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v/src/components/aritcle/Edit.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1476">
+              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v/src/components/user/Users.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="439">
+              <caret line="192" column="48" lean-forward="true" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
+              <folding>
+                <element signature="n#el-table#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-dialog#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#4155#4260#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t6/app/common/ApiErrDesc.php">
+        <entry file="file://$PROJECT_DIR$/t6/app/api/controller/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t6/app/common/ResponseJson.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/t6/app/api/common.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="547">
+              <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+              <folding>
+                <element signature="e#6#95#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -235,18 +207,19 @@
         <option value="$PROJECT_DIR$/v/src/components/Login.vue" />
         <option value="$PROJECT_DIR$/t6/app/api/BaseController.php" />
         <option value="$PROJECT_DIR$/v/src/components/Home.vue" />
-        <option value="$PROJECT_DIR$/v/src/components/user/Users.vue" />
         <option value="$PROJECT_DIR$/t6/app/api/model/Aritcle.php" />
         <option value="$PROJECT_DIR$/t6/app/api/middleware.php" />
         <option value="$PROJECT_DIR$/t6/app/api/ApiController.php" />
-        <option value="$PROJECT_DIR$/t6/app/api/controller/User.php" />
         <option value="$PROJECT_DIR$/t6/app/api/controller/System.php" />
         <option value="$PROJECT_DIR$/t6/app/api/controller/Home.php" />
         <option value="$PROJECT_DIR$/t6/app/api/middleware/Check.php" />
         <option value="$PROJECT_DIR$/t6/app/api/common.php" />
         <option value="$PROJECT_DIR$/t6/app/common/ApiErrDesc.php" />
         <option value="$PROJECT_DIR$/t6/app/api/controller/Aritcle.php" />
+        <option value="$PROJECT_DIR$/v/src/components/aritcle/Edit.vue" />
         <option value="$PROJECT_DIR$/v/src/components/aritcle/List.vue" />
+        <option value="$PROJECT_DIR$/t6/app/api/controller/User.php" />
+        <option value="$PROJECT_DIR$/v/src/components/user/Users.vue" />
       </list>
     </option>
   </component>
@@ -392,6 +365,14 @@
               <item name="v" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v_tst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="v_tst" type="462c0819:PsiDirectoryNode" />
+              <item name="v" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -447,17 +428,18 @@
       <workItem from="1639037532896" duration="130000" />
       <workItem from="1639133914237" duration="1353000" />
       <workItem from="1639135296597" duration="13207000" />
+      <workItem from="1639222085585" duration="6139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14690000" />
+    <option name="totallyTimeSpent" value="20829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -509,13 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/api/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/api/BaseController.php" />
     <entry file="file://$PROJECT_DIR$/t6/app/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -586,27 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/api/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#118#147#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#6#95#0#PHP" expanded="true" />
-            <element signature="e#130#168#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/api/ApiController.php" />
     <entry file="file://$PROJECT_DIR$/t6/app/api/controller/System.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -621,58 +577,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/t6/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/common/ApiErrDesc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/api/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/common/ResponseJson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Aritcle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#130#153#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/t6/app/api/middleware/Check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="1044">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="e#66#92#0#PHP" expanded="true" />
           </folding>
@@ -682,25 +593,101 @@
     <entry file="file://$PROJECT_DIR$/t6/app/api/model/Aritcle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v/src/components/aritcle/List.vue">
+    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#el-table#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/common/ApiErrDesc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/common/ResponseJson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="31" column="10" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/api/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v/src/components/user/Users.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="439">
+          <caret line="192" column="48" lean-forward="true" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
+          <folding>
+            <element signature="n#el-table#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-dialog#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#4155#4260#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/src/components/aritcle/Edit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t6/app/api/controller/Aritcle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="e#130#153#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/src/components/aritcle/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="n#el-dialog#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#5302#5407#0" />
+            <element signature="e#4491#4655#0" />
+            <element signature="e#4684#4822#0" />
+            <element signature="e#4853#5135#0" />
+            <element signature="e#6921#7244#0" />
+            <element signature="e#7349#7966#0" />
+            <element signature="e#7990#8286#0" />
+          </folding>
         </state>
       </provider>
     </entry>

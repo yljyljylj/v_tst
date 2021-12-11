@@ -72,28 +72,8 @@
 
             <!--编辑弹窗-->
             <el-dialog title="编辑文章" :visible.sync="editdialogFormVisible" >
-                <Edit :editdialogFormVisible="editdialogFormVisible" :editforms="editforms" :formLabelWidth="formLabelWidth"></Edit>
+                <Edit :editdialogFormVisible="editdialogFormVisible" :editforms="editforms" :edits="edits" :formLabelWidth="formLabelWidth"></Edit>
             </el-dialog>
-            <!--<el-form :model="editform" :rules="saverules" ref="save">-->
-            <!--<el-form-item label="文章标题" :label-width="formLabelWidth" prop="title">-->
-            <!--<el-input v-model="editform.title" autocomplete="off"></el-input>-->
-            <!--</el-form-item>-->
-            <!--<el-form-item label="文章排序" :label-width="formLabelWidth">-->
-            <!--<el-input v-model="editform.sort" type="number" autocomplete="off"></el-input>-->
-            <!--</el-form-item>-->
-            <!--<el-form-item label="文章状态" :label-width="formLabelWidth">-->
-            <!--<el-radio v-model="editform.status" :label="1">启用</el-radio>-->
-            <!--<el-radio v-model="editform.status" :label="0">禁用</el-radio>-->
-            <!--</el-form-item>-->
-            <!--<el-form-item label="文章内容" :label-width="formLabelWidth" prop="content">-->
-            <!--<el-input v-model="editform.content" autocomplete="off"></el-input>-->
-            <!--</el-form-item>-->
-            <!--</el-form>-->
-            <!--<div slot="footer" class="dialog-footer">-->
-            <!--<el-button @click="editdialogFormVisible = false">取 消</el-button>-->
-            <!--<el-button type="primary" @click="editAritcle">确 定</el-button>-->
-            <!--</div>-->
-
 
         </el-card>
     </div>
@@ -144,7 +124,6 @@
                     status:1
                 },
 
-
                 saverules: {
                     title: [
                         {required: true, message: '标题不能为空', trigger: 'blur'},
@@ -156,11 +135,13 @@
             }
         },
         methods:{
+            // 分页调用
             pages(info){
                 this.queryInfo.limit=info.limit
                 this.queryInfo.page=info.page
                 this.getUserList()
             },
+
             search(){
                 this.getUserList()
             },
@@ -195,23 +176,28 @@
                     this.getUserList()
                 })
             },
+
             edit(info){
                 this.editdialogFormVisible=true
-                this.editform.id=info.id
-                this.editform.title=info.title
-                this.editform.content=info.content
-                this.editform.sort=info.sort
-                this.editform.status=info.status
+                this.editforms.id=info.id
+                this.editforms.title=info.title
+                this.editforms.content=info.content
+                this.editforms.sort=info.sort
+                this.editforms.status=info.status
+                // console.log('edit@@@',info)
+            },
+
+            edits(info,reset){
+                if(!reset) return this.editdialogFormVisible=false
+                this.edit(info)
+                this.editAritcle()
             },
             async editAritcle(){
-                    const {data:res}=await this.$axios.post('api/aritcle/edit',this.editform)
+                    const {data:res}=await this.$axios.post('api/aritcle/edit',this.editforms)
                     if(res.code!==0) return this.$message.error(res.msg)
                     this.$message.success('修改成功')
                     this.getUserList()
-                    console.log(this.editform)
-
                     this.editdialogFormVisible=false
-                    // console.log(this.editform)
 
 
             }

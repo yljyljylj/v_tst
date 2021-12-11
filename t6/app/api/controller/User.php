@@ -49,4 +49,21 @@ class User extends BaseController
         }
 //        var_dump($info);
     }
+
+  public function edit(){
+        $info=$this->request->param();
+        if(empty($info)) return $this->ErrJson(ApiErrDesc::ERR_UPDATE);
+        $data['username']=$info['username'];
+        $data['password']=password_hash($info['password'],PASSWORD_DEFAULT) ;
+        $data['status']=$info['status'];
+        $data['groupid']=$info['groupid'];
+//      var_dump($data);
+        $db=new UserModel();
+        $res=$db->where('id',$info['id'])->save($data);
+        if($res){
+            return $this->SuccessJson();
+        }else{
+            return $this->ErrJson(ApiErrDesc::ERR_UPDATE);
+        }
+    }
 }
