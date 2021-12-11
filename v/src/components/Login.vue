@@ -40,7 +40,7 @@
 
                 this.$refs.form.validate(async valid=>{
                     if(!valid) return
-                        const {data:res}=await this.$axios.post('http://vtst.com/api/login/login',this.loginForm)
+                        const {data:res}=await this.$axios.post('api/login/login',this.loginForm)
                         if(res.code !==0){
                             return  this.$message.error(res.msg)
                         }

@@ -85,7 +85,7 @@
 
             },
             async getHomeList(){
-                const {data:res}=await this.$axios.get('http://vtst.com/api/home/index')
+                const {data:res}=await this.$axios.get('api/home/index')
                 if(res.code!==0) return this.$message.error(res.msg)
                 this.homeList=res.data
                 // console.log(res)

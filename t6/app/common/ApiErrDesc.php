@@ -29,6 +29,8 @@ class ApiErrDesc
     const ERR_USERNAME = [1001,'用户名不存在'];
 
 
+    const ERR_ADD = [2001,'添加失败'];
     const ERR_DELETE = [2002,'删除失败'];
+    const ERR_UPDATE = [2003,'修改失败'];
 
 }

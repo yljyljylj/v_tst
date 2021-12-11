@@ -50,4 +50,30 @@ class Aritcle extends BaseController
 
         echo $id;
     }
+
+    public function save(){
+        $info=$this->request->param();
+        $db=new AritcleModel();
+        $res=$db->save($info);
+        if($res){
+            return SuccessJson();
+        }else{
+            return ErrJson(ApiErrDesc::ERR_ADD);
+        }
+    }
+    public function edit(){
+        $info=$this->request->param();
+//        var_dump($info);
+//        return false;
+        $id=$info['id'];
+        $info['update_time']=time();
+//        return false;
+        $db=new AritcleModel();
+        $res=$db->where('id',$id)->save($info);
+        if($res){
+            return SuccessJson();
+        }else{
+            return ErrJson(ApiErrDesc::ERR_UPDATE);
+        }
+    }
 }
