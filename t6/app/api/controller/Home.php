@@ -11,11 +11,13 @@ namespace app\api\controller;
 
 
 use app\common\ResponseJson;
+use think\facade\Db;
 
 class Home
 {
     use ResponseJson;
     public function index(){
+
         $info=[
             [
                 'id'=>102,
@@ -27,6 +29,21 @@ class Home
                         'id'=>1021,
                         'authName'=>'用户列表',
                         'path'=>'users',
+                        'icon'=>'el-icon-eleme',
+                        'children'=>[]
+                    ]
+                ]
+            ],
+            [
+                'id'=>201,
+                'authName'=>'权限管理',
+                'path'=>null,
+                'icon'=>'el-icon-setting',
+                'children'=>[
+                    [
+                        'id'=>2021,
+                        'authName'=>'权限列表',
+                        'path'=>'auth',
                         'icon'=>'el-icon-eleme',
                         'children'=>[]
                     ]

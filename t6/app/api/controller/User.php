@@ -66,4 +66,27 @@ class User extends BaseController
             return $this->ErrJson(ApiErrDesc::ERR_UPDATE);
         }
     }
+
+    public function delete(){
+        $id=$this->request->param('id');
+        $db=new UserModel();
+        if($db->where('id',$id)->delete()){
+            return $this->SuccessJson();
+        }else{
+            return $this->ErrJson(ApiErrDesc::ERR_DELETE);
+        }
+    }
+    public function editStatus(){
+        $id=$this->request->param('id');
+        $info['status']=$this->request->param('status');
+        $db=new UserModel();
+//        exit;
+        $res=$db->where('id',$id)->save($info);
+        if($res){
+            return $this->SuccessJson();
+        }else{
+            return $this->ErrJson(ApiErrDesc::ERR_UPDATE);
+        }
+
+    }
 }

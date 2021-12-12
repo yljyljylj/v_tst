@@ -8,7 +8,7 @@
             <!--添加与查询-->
             <el-row :gutter="20">
                 <el-col :span="6">
-                    <el-input placeholder="请输入内容" clearable  v-model="queryInfo.query" class="input-with-select">
+                    <el-input placeholder="请输入内容" clearable  v-model="queryInfo.query" @clear="getUserList" class="input-with-select">
                         <el-button slot="append" icon="el-icon-search" @click="search"></el-button>
                     </el-input>
                 </el-col>
@@ -151,13 +151,15 @@
                 this.total=res.total
             },
             async del(id){
-                const {data:res}=await this.$axios.get('api/aritcle/delete',{params:{id:id}})
-                if(res.code!== 0){
-                    this.$message.error(res.msg)
-                }else{
+                if(confirm('确定要删除吗？')){
+                    const {data:res}=await this.$axios.get('api/aritcle/delete',{params:{id:id}})
+                    if(res.code!== 0)return this.$message.error(res.msg)
                     this.$message.success('删除成功')
                     this.getUserList()
+                }else{
+                    return false
                 }
+
             },
             add(){
                 this.dialogFormVisible=true
