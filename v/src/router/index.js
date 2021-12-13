@@ -7,6 +7,7 @@ import Users from '../components/user/Users'
 import System from '../components/system/System'
 import List from '../components/aritcle/List'
 import Auth from '../components/auth/Auth'
+import Rules from '../components/auth/Roles'
 
 
 Vue.use(VueRouter)
@@ -36,6 +37,10 @@ const routes = [
             {
                 path:'/auth',
                 component:Auth
+            },
+            {
+                path:'/rules',
+                component:Rules
             },
             {
                 path:'/list',
