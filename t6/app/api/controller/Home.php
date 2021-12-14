@@ -46,6 +46,13 @@ class Home
                         'path'=>'auth',
                         'icon'=>'el-icon-eleme',
                         'children'=>[]
+                    ],
+                    [
+                        'id'=>2022,
+                        'authName'=>'角色列表',
+                        'path'=>'rules',
+                        'icon'=>'el-icon-eleme',
+                        'children'=>[]
                     ]
                 ]
             ],

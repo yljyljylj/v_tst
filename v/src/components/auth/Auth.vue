@@ -6,7 +6,7 @@
             <el-table :data="authList" border stripe>
                 <el-table-column type="index"></el-table-column>
                 <el-table-column prop="title"  label="权限名称"></el-table-column>
-                <el-table-column prop="name"  label="权限路径"></el-table-column>
+                <el-table-column prop="path"  label="权限路径"></el-table-column>
                 <el-table-column prop="type"  label="权限等級">
                     <template slot-scope="scope">
                         <el-tag type="success" v-if="scope.row.type===1 ">一級</el-tag>

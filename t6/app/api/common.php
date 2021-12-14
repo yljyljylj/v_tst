@@ -29,3 +29,35 @@ function JsonResponse($api,$data)
     ];
     return json($content);
 }
+
+//排序
+function rules($array){
+    $items = array();
+    foreach($array as $value){
+        $items[$value['id']] = $value;
+    }
+//    return $items;
+    //第二部 遍历数据 生成树状结构
+    $tree = array();
+    foreach($items as $key => $item){
+        if(isset($items[$item['pid']])){
+            $items[$item['pid']]['son'][] = &$items[$key];
+        }else{
+            $tree[] = &$items[$key];
+        }
+    }
+    return $tree;
+//    foreach ($rule as $key=>$val){
+//        if($val['pid']==0){
+//            $info[]=$val;
+//        }
+//    }
+//    foreach ($rule as $key=>$val){
+//        foreach ($info as $k=>$v){
+//            if($val['pid']==$v['id']){
+//                $info[$k]['children'][]=$val;
+//            }
+//        }
+//    }
+//    return $info;
+}
