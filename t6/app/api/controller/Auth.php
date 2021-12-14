@@ -16,9 +16,26 @@ use think\facade\Db;
 class Auth extends BaseController
 {
     public function index(){
+        $page=$this->request->param('page');
+        $limit=$this->request->param('limit');
+        $query=$this->request->param('query');
         $db=Db::name('auth_rule');
-        $data=$db->select()->toArray();
-        return SuccessJson($data);
+
+        if(isset($query) || !empty($query)){
+            $db=$db->where('title','like','%'.$query.'%');
+        }
+        $info=$db->page($page)->limit($limit)->order('id')->select()->toArray();
+//        var_dump($info);exit;
+        $total=$db->count('id');
+        $content=[
+            'code'=>ApiErrDesc::SUCCESS[0],
+            'msg'=>ApiErrDesc::SUCCESS[1],
+            'total'=>$total,
+            'data'=>$info
+        ];
+        return json($content);
+//        $data=$db->select()->toArray();
+//        return SuccessJson($data);
     }
     public function Rules(){
         $info=Db::name('auth_group')->select()->toArray();
@@ -80,6 +97,16 @@ class Auth extends BaseController
             return SuccessJson($info);
         }
 
+    }
+    public function getTopRule(){
+        $res=Db::name('auth_rule')->where('pid',0)->select();
+        return SuccessJson($res);
+    }
+
+    public function secondList(){
+        $pid=$this->request->param('pid');
+        $res=Db::name('auth_rule')->where('pid',$pid)->select();
+        return SuccessJson($res);
     }
 
 }

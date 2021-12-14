@@ -61,3 +61,20 @@ function rules($array){
 //    }
 //    return $info;
 }
+function getTree($array){
+
+    $items = array();
+    foreach($array as $value){
+        $items[$value['id']] = $value;
+    }
+//    第二部 遍历数据 生成树状结构
+    $tree = array();
+    foreach($items as $key => $value){
+        if(isset($items[$value['pid']])){
+            $items[$value['pid']]['children'][] = &$items[$key];
+        }else{
+            $tree[] = &$items[$key];
+        }
+    }
+    return $tree;
+}

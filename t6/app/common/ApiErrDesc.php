@@ -32,5 +32,6 @@ class ApiErrDesc
     const ERR_ADD = [2001,'添加失败'];
     const ERR_DELETE = [2002,'删除失败'];
     const ERR_UPDATE = [2003,'修改失败'];
+    const ERR_REPEAT = [2004,'添加失败,用户名已存在'];
 
 }

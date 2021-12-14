@@ -30,14 +30,14 @@
                         <el-submenu :index="home.id + ''" v-for="home in homeList" :key="home.id">
                             <!--一级菜单模板区-->
                             <template slot="title">
-                                <i :class="home.icon"></i>
-                                <span style="margin-left: 10px;">{{home.authName}}</span>
+                                <i :class="home.css"></i>
+                                <span style="margin-left: 10px;">{{home.title}}</span>
                             </template>
                             <!--二级菜单-->
                             <el-menu-item  :index="'/'+item.path" v-for="item in home.children" :key="item.id" >
                                 <template slot="title">
-                                    <i :class="item.icon"></i>
-                                    <span style="margin-left: 10px;">{{item.authName}}</span>
+                                    <i :class="item.css"></i>
+                                    <span style="margin-left: 10px;">{{item.title}}</span>
                                 </template>
                             </el-menu-item>
                         </el-submenu>

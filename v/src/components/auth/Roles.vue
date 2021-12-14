@@ -16,6 +16,7 @@
                 <el-table-column label="状态"  width="180">
                         <template slot-scope="scope">
                             <el-switch
+                                    v-if="scope.row.id!=1"
                                     v-model="scope.row.status"
                                     :active-value="1" :inactive-value="0"
                                     @change="editStatus(scope.row)"
@@ -45,8 +46,8 @@
 
 <script>
     import Crumbs from '../common/Crumbs'
-    import Addform from './views/Addform'
-    import Editform from './views/Editform'
+    import Addform from '../../views/auth/Addform'
+    import Editform from '../../views/auth/Editform'
     export default {
         name: "Roles",
         components:{Crumbs,Addform,Editform},
